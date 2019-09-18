@@ -26,6 +26,10 @@
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/7zip/-/7zip-0.0.6.tgz#9cafb171af82329490353b4816f03347aa150a30"
 
+"@types/node@^8.0.24":
+  version "8.10.54"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.10.54.tgz#1c88eb253ac1210f1a5876953fb70f7cc4928402"
+
 abab@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.3.tgz#b81de5f7274ec4e756d797cd834f303642724e5d"
@@ -1470,6 +1474,10 @@ boom@2.x.x:
   dependencies:
     hoek "2.x.x"
 
+bootstrap@^3.3.7:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.4.1.tgz#c3a347d419e289ad11f4033e3c4132b87c081d72"
+
 boxen@^0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/boxen/-/boxen-0.6.0.tgz#8364d4248ac34ff0ef1b2f2bf49a6c60ce0d81b6"
@@ -2649,10 +2657,11 @@ electron-to-chromium@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.2.0.tgz#3bd7761f85bd4163602259ae6c7ed338050b17e7"
 
-electron@^1.4.15:
-  version "1.4.15"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-1.4.15.tgz#eaccafe3f55ade02a746b706ac14b43db6c7ccf8"
+electron@^1.8.8:
+  version "1.8.8"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-1.8.8.tgz#a90cddb075291f49576993e6f5c8bb4439301cae"
   dependencies:
+    "@types/node" "^8.0.24"
     electron-download "^3.0.1"
     extract-zip "^1.0.3"
 
@@ -3368,7 +3377,7 @@ fresh@0.3.0:
 
 fs-exists-sync@^0.1.0:
   version "0.1.0"
-  resolved "http://registry.npmjs.org/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
+  resolved "https://registry.npmjs.org/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
 
 fs-extra-p@^3.1.0:
   version "3.1.0"
@@ -4265,6 +4274,10 @@ joi@9.0.0-0:
     moment "2.x.x"
     topo "2.x.x"
 
+jquery@^3.1.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
+
 js-base64@^2.1.9:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -4878,7 +4891,7 @@ mkpath@^0.1.0:
 
 mksnapshot@^0.3.0:
   version "0.3.0"
-  resolved "http://registry.npmjs.org/mksnapshot/-/mksnapshot-0.3.0.tgz#32ea984ad6f532324c6a3fae6400876b85828407"
+  resolved "https://registry.npmjs.org/mksnapshot/-/mksnapshot-0.3.0.tgz#32ea984ad6f532324c6a3fae6400876b85828407"
   dependencies:
     decompress-zip "0.3.0"
     fs-extra "0.26.7"
